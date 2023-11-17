@@ -2,7 +2,7 @@ version: "2.1"
 name: "${UNIFI_PROJECT_NAME}"
 services:
   unifi-db:
-    image: docker.io/mongo:4.4
+    image: docker.io/mongo:4.4 # UniFi currently supports up to 4.4
     container_name: ${UNIFI_PROJECT_NAME}_db
     volumes:
       - ${UNIFI_DATA_DIR}/db:/data/db
