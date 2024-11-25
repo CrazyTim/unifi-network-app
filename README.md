@@ -12,7 +12,7 @@ This is my docker config to install the UniFi network app in a few simple steps.
 docker compose up -d
 ```
 
-3) Browse to https://localhost:8443 and complete the initial setup.
+3) Browse to https://localhost:8443 and complete the initial setup. Sign in using your Unifi account (https://unifi.ui.com)
 
 4) Go to "Settings" > "System" > "Advanced" > "Inform Host" and tick "Override". Enter the IP address of your machine, then restart the docker project. You will need to do this again if your machine's IP address changes. This step is needed because UniFi is running inside Docker and this makes it accessible to the devices.
 
