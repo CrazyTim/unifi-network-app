@@ -1,6 +1,8 @@
 # UniFi Network App
 
-This is my docker config to install the UniFi network app in a few simple steps. It uses the docker image [linuxserver/unifi-network-application](https://github.com/linuxserver/docker-unifi-network-application).
+Install the UniFi network app on your machine with docker in a few simple steps.
+
+Uses [linuxserver/unifi-network-application](https://github.com/linuxserver/docker-unifi-network-application).
 
 ## Getting started
 
