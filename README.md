@@ -14,7 +14,7 @@ docker compose up -d
 
 3) Browse to https://localhost:8443 and complete the initial setup. Sign in using your Unifi account (https://unifi.ui.com)
 
-4) Go to "Settings" > "System" > "Advanced" > "Inform Host" and tick "Override". Enter the IP address of your machine, then restart the docker project. You will need to do this again if your machine's IP address changes. This step is needed because UniFi is running inside Docker and this makes it accessible to the devices.
+4) If this is the first time you are signing in, or if your machine's IP address has changed, go to "Settings" > "System" > "Advanced" > "Inform Host" and tick "Override". Enter the IP address of your machine, then restart the docker project. This step is needed because UniFi is running inside Docker and this makes it accessible to the devices. If you noice that devices are not adopted anymore, then its probably because your machine's IP address has changed.
 
 ## Notes
 
